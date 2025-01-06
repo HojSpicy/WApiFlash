@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WApiFlash.Model;
-using WApiFlash.Repository;
+using WApiFlash.Domain.Interfaces;
+using WApiFlash.Domain.Models;
 
-namespace WApiFlash.Controller
+namespace WApiFlash.Presentation.Controller
 {
     [ApiController]
     [Route("api/[controller]")]

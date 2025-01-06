@@ -2,20 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WApiFlash.Data;
+using WApiFlash.Infrastructure.Data;
 
 #nullable disable
 
-namespace WApiFlash.Migrations
+namespace WApiFlash.Infrastructure.Migrations
 {
     [DbContext(typeof(FlashDBContext))]
-    [Migration("20250104093004_InitialCreate")]
-    partial class InitialCreate
+    partial class FlashDBContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,7 +21,7 @@ namespace WApiFlash.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WApiFlash.Model.Flash", b =>
+            modelBuilder.Entity("WApiFlash.Domain.Models.Flash", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

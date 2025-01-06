@@ -1,4 +1,4 @@
-﻿namespace WApiFlash.Repository
+﻿namespace WApiFlash.Domain.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {

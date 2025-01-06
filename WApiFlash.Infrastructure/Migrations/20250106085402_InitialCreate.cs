@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WApiFlash.Migrations
+namespace WApiFlash.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WApiFlash.Data;
+using WApiFlash.Domain.Interfaces;
+using WApiFlash.Infrastructure.Data;
 
-namespace WApiFlash.Repository
+namespace WApiFlash.Infrastructure.Repositories
 {
     public class GenericRepository<T>:IGenericRepository<T> where T : class
     {

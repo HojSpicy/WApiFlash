@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WApiFlash.Model;
+using WApiFlash.Domain.Models;
 
-namespace WApiFlash.Data
+namespace WApiFlash.Infrastructure.Data
 {
     public class FlashDBContext:DbContext
     {

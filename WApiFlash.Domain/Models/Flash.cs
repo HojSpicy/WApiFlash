@@ -1,4 +1,4 @@
-﻿namespace WApiFlash.Model
+﻿namespace WApiFlash.Domain.Models
 {
     public class Flash
     {

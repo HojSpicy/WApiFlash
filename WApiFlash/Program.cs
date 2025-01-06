@@ -1,7 +1,7 @@
-using WApiFlash.Data;
-//using WApiFlash.Repository;
+using WApiFlash.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using WApiFlash.Repository;
+using WApiFlash.Domain.Interfaces;
+using WApiFlash.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

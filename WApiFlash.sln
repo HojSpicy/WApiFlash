@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiFlash", "WApiFlash\WApiFlash.csproj", "{0D42C44B-C06B-44F5-A924-B2A97D01C2D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiFlash.Presentation", "WApiFlash\WApiFlash.Presentation.csproj", "{0D42C44B-C06B-44F5-A924-B2A97D01C2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiFlash.Domain", "WApiFlash.Domain\WApiFlash.Domain.csproj", "{F5C114CF-AC3D-4098-9561-46053A2AC3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiFlash.Infrastructure", "WApiFlash.Infrastructure\WApiFlash.Infrastructure.csproj", "{0433EEC5-2726-46F2-AAE4-14E6D7584456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0D42C44B-C06B-44F5-A924-B2A97D01C2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D42C44B-C06B-44F5-A924-B2A97D01C2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D42C44B-C06B-44F5-A924-B2A97D01C2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C114CF-AC3D-4098-9561-46053A2AC3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C114CF-AC3D-4098-9561-46053A2AC3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C114CF-AC3D-4098-9561-46053A2AC3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C114CF-AC3D-4098-9561-46053A2AC3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0433EEC5-2726-46F2-AAE4-14E6D7584456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0433EEC5-2726-46F2-AAE4-14E6D7584456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0433EEC5-2726-46F2-AAE4-14E6D7584456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0433EEC5-2726-46F2-AAE4-14E6D7584456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
